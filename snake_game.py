@@ -6,8 +6,8 @@ import random
 pygame.init()
 
 # Screen dimensions
-WINDOW_WIDTH = 1200
-WINDOW_HEIGHT = 1200
+WINDOW_WIDTH = 400
+WINDOW_HEIGHT = 400
 CELL_SIZE = 20
 
 # Colors
@@ -22,7 +22,7 @@ clock = pygame.time.Clock()
 
 # Set up display
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption("Snake Game")
+pygame.display.set_caption("Snake Game for Erika!")
 
 # Font for score display
 font_style = pygame.font.SysFont(None, 35)
